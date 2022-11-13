@@ -90,7 +90,7 @@ function Startups({
                                         <span className="testimonial-item-name text-color-high">{one.location}</span>
                                         <span className="text-color-low"> / </span>
                                         <span className="testimonial-item-link">
-                                            <a target="_blank" href={one.siteUrl}>{one.name}</a>
+                                            <a target="_blank" href={one.siteUrl} rel="noopener noreferrer">{one.name}</a>
                                         </span>
                                     </div>
                                 </div>
