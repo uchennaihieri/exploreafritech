@@ -39,7 +39,7 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-          <AppRoute exact path="/startups" component={Startups} layout={StartupLayout} />
+          <AppRoute exact path="/Startups" component={Startups} layout={StartupLayout} />
 
         </Switch>
       )} />
