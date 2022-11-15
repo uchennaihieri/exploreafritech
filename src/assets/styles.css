@@ -1,0 +1,15 @@
+svg:hover {
+    fill: green;
+    cursor: pointer;
+}
+
+svg {
+    margin-left: 10px;
+}
+
+
+.inputSide {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
